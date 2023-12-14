@@ -8,7 +8,7 @@ def cesar_ciffer(message, key):
 
 	message = str(message)
 
-	list_of_crypted_caracs = []
+	list_of_crypted__caracs = []
 	
 	for carac in message:
 		crypted_index = (string.printable.index(carac) + key) % len(string.printable)
